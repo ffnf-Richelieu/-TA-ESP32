@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Lantai 1";
-const char* password = "Totis123";
+const char* ssid = "NAMA_WIFI_KAMU";
+const char* password = "PASSWORD_WIFI_KAMU";
 // Ganti dengan IP Address laptop kamu yang menjalankan Laravel (contoh: 192.168.1.10)
-const char* serverUrl = "http://192.168.0.139:8000/api/sensor";
+const char* serverUrl = "http://192.168.x.x:8000/api/sensor"; 
 
 void setup() {
   Serial.begin(115200);
